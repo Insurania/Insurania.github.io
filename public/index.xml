@@ -7,8 +7,24 @@
     <generator>Hugo -- 0.146.0</generator>
     <language>zh</language>
     <copyright>©2026 Insurania&amp;rsquo;s Blog</copyright>
-    <lastBuildDate>Fri, 06 Mar 2026 16:16:15 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 01:18:45 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/posts/test/</link>
+      <pubDate>Sun, 15 Mar 2026 01:18:45 +0800</pubDate>
+      <guid>http://localhost:1313/posts/test/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;导语&lt;/strong&gt;：在这里写一段简短的导语，概括文章的核心内容。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;一第一部分标题&#34;&gt;一、第一部分标题&lt;/h2&gt;
+&lt;p&gt;在这里写第一部分的内容。&lt;/p&gt;
+&lt;h3 id=&#34;11-子标题&#34;&gt;1.1 子标题&lt;/h3&gt;
+&lt;p&gt;详细内容&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;二第二部分标题&#34;&gt;二、第二部分标题&lt;/h2&gt;
+&lt;p&gt;继续写第二部分的内容。&lt;/p&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
+&lt;p&gt;总结文章的要点。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>C&#43;&#43; std::thread 传参底层机制与悬空引用陷阱</title>
       <link>http://localhost:1313/posts/1/</link>

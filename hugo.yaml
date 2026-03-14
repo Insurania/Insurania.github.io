@@ -67,6 +67,7 @@ languages:
     taxonomies: # 分类系统
       category: categories
       tag: tags
+      series: series
     # https://gohugo.io/content-management/menus/#define-in-site-configuration
     menus:
       main:
@@ -82,6 +83,9 @@ languages:
         - name: 标签
           pageRef: tags/
           weight: 10
+        - name: 合集
+          pageRef: series/
+          weight: 15
         - name: 搜索
           pageRef: search/
           weight: 20

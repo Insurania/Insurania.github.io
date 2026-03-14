@@ -1,0 +1,39 @@
+/* 合集样式 */
+.post-series {
+  margin: 20px 0;
+  padding: 15px;
+  background: var(--code-bg);
+  border-left: 4px solid var(--primary);
+  border-radius: 4px;
+}
+
+.series-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--primary);
+}
+
+.series-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.series-list li {
+  margin: 5px 0;
+}
+
+.series-list a {
+  color: var(--content);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.series-list a:hover {
+  color: var(--primary);
+}
+
+/* 暗色模式适配 */
+.dark .post-series {
+  background: var(--code-bg);
+}
