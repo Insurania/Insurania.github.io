@@ -5,6 +5,20 @@
     {{ partial "mathjax.html" . }}
 {{- end -}}
 
+{{- /* 引入自定义 CSS */ -}}
+{{- $customCSS := resources.Get "css/extended/custom.css" -}}
+{{- if $customCSS -}}
+    {{- $customCSS = $customCSS | resources.Minify | resources.Fingerprint -}}
+    <link rel="stylesheet" href="{{ $customCSS.RelPermalink }}" integrity="{{ $customCSS.Data.Integrity }}">
+{{- end -}}
+
+{{- /* 引入自定义 JavaScript */ -}}
+{{- $customJS := resources.Get "js/custom.js" -}}
+{{- if $customJS -}}
+    {{- $customJS = $customJS | resources.Minify | resources.Fingerprint -}}
+    <script defer src="{{ $customJS.RelPermalink }}" integrity="{{ $customJS.Data.Integrity }}"></script>
+{{- end -}}
+
 {{- /* Head custom content area end */ -}}
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
