@@ -7,24 +7,15 @@
     <generator>Hugo -- 0.146.0</generator>
     <language>zh</language>
     <copyright>©2026 Insurania&amp;rsquo;s Blog</copyright>
-    <lastBuildDate>Thu, 05 Mar 2026 14:59:25 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 16:16:15 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Bonfire</title>
-      <link>http://localhost:1313/posts/first-bonfire/</link>
-      <pubDate>Thu, 05 Mar 2026 14:59:25 +0800</pubDate>
-      <guid>http://localhost:1313/posts/first-bonfire/</guid>
-      <description>&lt;p&gt;哈基米&lt;/p&gt;
-&lt;p&gt;行内数学公式：$a^2 + b^2 = c^2$。&lt;/p&gt;
-&lt;p&gt;块公式，&lt;/p&gt;
-&lt;p&gt;$$
-a^2 + b^2 = c^2
-$$&lt;/p&gt;
-&lt;div&gt;
-$$
-\boldsymbol{x}_{i+1}+\boldsymbol{x}_{i+2}=\boldsymbol{x}_{i+3}
-$$
-&lt;/div&gt;</description>
+      <title>C&#43;&#43; std::thread 传参底层机制与悬空引用陷阱</title>
+      <link>http://localhost:1313/posts/1/</link>
+      <pubDate>Fri, 06 Mar 2026 16:16:15 +0800</pubDate>
+      <guid>http://localhost:1313/posts/1/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;导语&lt;/strong&gt;：这是本站燃起的第一团篝火。并发编程的难点往往不在于 API 的调用，而在于对底层内存模型和生命周期的把控。本文将从源码和底层机制的角度，深度剖析 &lt;code&gt;C++11&lt;/code&gt; &lt;code&gt;std::thread&lt;/code&gt; 线程管理中的传参机制、生命周期错位问题，以及由此引发的悬空引用陷阱。&lt;/p&gt;</description>
     </item>
     <item>
       <title>关于</title>
